@@ -1,0 +1,17 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css); */
+}
+.player {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+.player iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
